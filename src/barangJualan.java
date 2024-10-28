@@ -40,7 +40,7 @@ class PersediaanBarang {
 }
 class Main_app {
     public static void main(String[] args) {
-        barangJualan barang = new barangJualan("SADPHONE", "HappyPhone", 1500000, 1500000, 999, 10);
+        barangJualan barang = new barangJualan("dewa", "HappyPhone", 1500000, 1500000, 999, 10);
         PersediaanBarang inv = new PersediaanBarang(barang, "DEWA cell");
         inv.tampilanstock();
         inv.tampilanstock();
